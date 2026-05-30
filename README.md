@@ -5,7 +5,6 @@ Open source
 
 [![WhatsApp](https://img.shields.io/badge/Chat-WhatsApp-green)](https://wa.me/6281282996533)
 [![Portfolio](https://img.shields.io/badge/Portfolio-istikomah.web.app-blue)](https://istikomah.web.app)
-[![Email](https://img.shields.io/badge/Email-bakulgrosirherbal%40gmail.com-red)](mailto:bakulgrosirherbal@gmail.com)
 
 **Jasa profesional pembuatan website AI, marketplace, chatbot, dan sistem order otomatis** — dikerjakan oleh developer berpengalaman dengan teknologi modern. Harga terjangkau, hasil berkualitas.
 
@@ -76,7 +75,6 @@ Open source
 - 📱 **WhatsApp:** [081282996533](https://wa.me/6281282996533)
 - 📧 **Email:** [bakulgrosirherbal@gmail.com](mailto:bakulgrosirherbal@gmail.com)
 - 🌐 **Website:** [istikomah.web.app](https://istikomah.web.app)
-- 💼 **LinkedIn:** [linkedin.com/in/istikomah](https://linkedin.com)
 
 ---
 
