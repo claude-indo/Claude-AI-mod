@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Istikomah — Jasa Pembuatan Website AI & Marketplace</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+        .gradient-text {
+            background: linear-gradient(135deg, #6366f1, #8b5cf6, #a855f7);
+            -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+        }
+        .card-hover:hover { transform: translateY(-5px); box-shadow: 0 20px 40px rgba(99,102,241,0.2); }
+        .card-hover { transition: all 0.3s ease; }
+    </style>
+</head>
+<body class="bg-slate-900 text-white">
+
+    <!-- Navbar -->
+    <nav class="fixed top-0 w-full z-50 bg-slate-900/80 backdrop-blur-md border-b border-slate-700/50">
+        <div class="max-w-6xl mx-auto flex items-center justify-between px-6 py-4">
+            <a href="#" class="text-2xl font-bold gradient-text">Istikomah</a>
+            <div class="hidden md:flex gap-6 text-sm text-slate-300">
+                <a href="#layanan" class="hover:text-white transition">Layanan</a>
+                <a href="#portofolio" class="hover:text-white transition">Portofolio</a>
+                <a href="#harga" class="hover:text-white transition">Harga</a>
+                <a href="#kontak" class="hover:text-white transition">Kontak</a>
+            </div>
+            <a href="https://wa.me/6281282996533" class="bg-green-600 hover:bg-green-700 px-4 py-2 rounded-full text-sm font-bold transition">
+                <i class="fab fa-whatsapp mr-1"></i> Chat
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <header class="pt-32 pb-20 px-6 text-center">
+        <div class="max-w-4xl mx-auto">
+            <div class="inline-block bg-indigo-500/10 border border-indigo-500/20 rounded-full px-4 py-1 text-indigo-300 text-sm mb-6">
+                🚀 Jasa Profesional — Indonesia
+            </div>
+            <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight">
+                Bangun <span class="gradient-text">Website AI</span> & <span class="gradient-text">Marketplace</span> Impianmu
+            </h1>
+            <p class="text-lg text-slate-400 max-w-2xl mx-auto mb-8 leading-relaxed">
+                Dari chatbot AI pintar, website toko online, sampai marketplace dengan sistem order otomatis — 
+                <strong class="text-white">semua bisa kami wujudkan</strong> dengan harga terjangkau.
+            </p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="https://wa.me/6281282996533" class="bg-indigo-600 hover:bg-indigo-700 px-8 py-4 rounded-full font-bold text-lg transition shadow-lg shadow-indigo-500/25">
+                    <i class="fab fa-whatsapp mr-2"></i> Konsultasi Gratis
+                </a>
+                <a href="#portofolio" class="border border-slate-600 hover:border-white px-8 py-4 rounded-full font-bold text-lg transition">
+                    <i class="fas fa-eye mr-2"></i> Lihat Portofolio
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Layanan -->
+    <section id="layanan" class="py-20 px-6 bg-slate-800/50">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-4">💼 Layanan Kami</h2>
+            <p class="text-slate-400 text-center mb-12 max-w-2xl mx-auto">Kami menyediakan solusi digital lengkap untuk bisnis Anda — dari AI sampai marketplace.</p>
+            
+            <div class="grid md:grid-cols-3 gap-6">
+                <!-- AI Chat -->
+                <div class="card-hover bg-slate-800 border border-slate-700 rounded-2xl p-8">
+                    <div class="text-4xl mb-4">🤖</div>
+                    <h3 class="text-xl font-bold mb-3">AI Chat & Chatbot</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-4">
+                        Asisten AI custom untuk website Anda. Support multi-model (Gemini, OpenRouter), 
+                        bisa diintegrasikan ke WhatsApp & Telegram.
+                    </p>
+                    <ul class="text-sm text-slate-300 space-y-2">
+                        <li>✅ 22+ Tools Built-in (dorking, scanning, scraping)</li>
+                        <li>✅ Streaming real-time</li>
+                        <li>✅ Custom prompt & personality</li>
+                        <li>✅ File upload (PDF, gambar)</li>
+                    </ul>
+                </div>
+
+                <!-- Marketplace -->
+                <div class="card-hover bg-slate-800 border border-slate-700 rounded-2xl p-8">
+                    <div class="text-4xl mb-4">🛒</div>
+                    <h3 class="text-xl font-bold mb-3">Website Marketplace</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-4">
+                        Toko online profesional dengan sistem order otomatis, cek ongkir real-time, 
+                        dan integrasi ekspedisi.
+                    </p>
+                    <ul class="text-sm text-slate-300 space-y-2">
+                        <li>✅ Cek ongkir real-time (JNE, J&T, SiCepat)</li>
+                        <li>✅ COD & Transfer Bank</li>
+                        <li>✅ Resi otomatis dari Biteship</li>
+                        <li>✅ Dashboard admin monitoring</li>
+                    </ul>
+                </div>
+
+                <!-- Fullstack -->
+                <div class="card-hover bg-slate-800 border border-slate-700 rounded-2xl p-8">
+                    <div class="text-4xl mb-4">⚡</div>
+                    <h3 class="text-xl font-bold mb-3">Fullstack Development</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-4">
+                        Pengembangan website & aplikasi end-to-end dengan teknologi modern.
+                    </p>
+                    <ul class="text-sm text-slate-300 space-y-2">
+                        <li>✅ Node.js / Express.js backend</li>
+                        <li>✅ Supabase / Firebase database</li>
+                        <li>✅ Vercel / Firebase Hosting</li>
+                        <li>✅ Android APK (Capacitor)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portofolio -->
+    <section id="portofolio" class="py-20 px-6">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-4">🏗️ Portofolio Projek</h2>
+            <p class="text-slate-400 text-center mb-12">Projek nyata yang sudah kami selesaikan.</p>
+
+            <div class="grid md:grid-cols-2 gap-6">
+                <!-- MHP Dark AI -->
+                <a href="https://mhp-dark-ai.vercel.app" target="_blank" class="card-hover bg-slate-800 border border-indigo-500/20 rounded-2xl p-6 flex gap-4">
+                    <div class="text-4xl">🧠</div>
+                    <div>
+                        <h3 class="text-lg font-bold text-indigo-300">MHP Dark AI</h3>
+                        <p class="text-slate-400 text-sm mt-1">AI asisten dengan 22+ tools: dorking, scanning, scraping, marketplace. Multi-model, self-hosted di Vercel.</p>
+                        <span class="text-indigo-400 text-xs mt-2 inline-block">🔗 mhp-dark-ai.vercel.app</span>
+                    </div>
+                </a>
+
+                <!-- Madu Hitam Perkasa -->
+                <a href="https://maduhitamperkasa.web.app" target="_blank" class="card-hover bg-slate-800 border border-orange-500/20 rounded-2xl p-6 flex gap-4">
+                    <div class="text-4xl">🍯</div>
+                    <div>
+                        <h3 class="text-lg font-bold text-orange-300">Madu Hitam Perkasa</h3>
+                        <p class="text-slate-400 text-sm mt-1">Marketplace herbal dengan sistem order COD, cek ongkir real-time, resi otomatis via Biteship.</p>
+                        <span class="text-orange-400 text-xs mt-2 inline-block">🔗 maduhitamperkasa.web.app</span>
+                    </div>
+                </a>
+
+                <!-- Landing Page -->
+                <a href="https://istikomah.web.app" target="_blank" class="card-hover bg-slate-800 border border-purple-500/20 rounded-2xl p-6 flex gap-4">
+                    <div class="text-4xl">🎨</div>
+                    <div>
+                        <h3 class="text-lg font-bold text-purple-300">Landing Page Jasa</h3>
+                        <p class="text-slate-400 text-sm mt-1">Halaman portofolio profesional untuk jasa AI & web development. Responsif, modern, SEO-friendly.</p>
+                        <span class="text-purple-400 text-xs mt-2 inline-block">🔗 istikomah.web.app</span>
+                    </div>
+                </a>
+
+                <!-- Dashboard Admin -->
+                <a href="https://mhp-dark-ai.web.app/admin" target="_blank" class="card-hover bg-slate-800 border border-green-500/20 rounded-2xl p-6 flex gap-4">
+                    <div class="text-4xl">📊</div>
+                    <div>
+                        <h3 class="text-lg font-bold text-green-300">Dashboard Admin</h3>
+                        <p class="text-slate-400 text-sm mt-1">Dashboard monitoring real-time untuk marketplace. Statistik order, user, API keys — semua terpantau.</p>
+                        <span class="text-green-400 text-xs mt-2 inline-block">🔗 mhp-dark-ai.web.app/admin</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Harga -->
+    <section id="harga" class="py-20 px-6 bg-slate-800/50">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-4">💰 Estimasi Harga</h2>
+            <p class="text-slate-400 text-center mb-12">Harga disesuaikan dengan kebutuhan. Berikut gambaran umum.</p>
+
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="bg-slate-800 border border-slate-700 rounded-2xl p-8 text-center">
+                    <div class="text-4xl mb-4">🔰</div>
+                    <h3 class="text-lg font-bold mb-2">Paket Basic</h3>
+                    <p class="text-3xl font-bold gradient-text mb-4">Rp 500K - 1.5JT</p>
+                    <ul class="text-sm text-slate-400 space-y-2 mb-6">
+                        <li>Landing page profesional</li>
+                        <li>Form order sederhana</li>
+                        <li>Hosting gratis (Firebase)</li>
+                        <li>Revisi 2x</li>
+                    </ul>
+                    <a href="https://wa.me/6281282996533" class="block border border-indigo-500 text-indigo-300 hover:bg-indigo-500/10 py-3 rounded-full font-bold transition">Pilih Paket</a>
+                </div>
+
+                <div class="bg-indigo-600 border-2 border-indigo-400 rounded-2xl p-8 text-center scale-105">
+                    <div class="text-4xl mb-4">⭐</div>
+                    <h3 class="text-lg font-bold mb-2">Paket Premium 🔥</h3>
+                    <p class="text-3xl font-bold text-white mb-4">Rp 1.5JT - 5JT</p>
+                    <ul class="text-sm text-indigo-100 space-y-2 mb-6">
+                        <li>Website marketplace lengkap</li>
+                        <li>Cek ongkir & resi otomatis</li>
+                        <li>Dashboard admin</li>
+                        <li>Revisi 5x</li>
+                    </ul>
+                    <a href="https://wa.me/6281282996533" class="block bg-white text-indigo-600 hover:bg-gray-100 py-3 rounded-full font-bold transition">Pilih Paket</a>
+                </div>
+
+                <div class="bg-slate-800 border border-slate-700 rounded-2xl p-8 text-center">
+                    <div class="text-4xl mb-4">👑</div>
+                    <h3 class="text-lg font-bold mb-2">Paket Enterprise</h3>
+                    <p class="text-3xl font-bold gradient-text mb-4">Rp 5JT - 15JT</p>
+                    <ul class="text-sm text-slate-400 space-y-2 mb-6">
+                        <li>AI Chat + Tools lengkap</li>
+                        <li>Marketplace + Bot Telegram</li>
+                        <li>Android APK</li>
+                        <li>Maintenance 3 bulan</li>
+                    </ul>
+                    <a href="https://wa.me/6281282996533" class="block border border-indigo-500 text-indigo-300 hover:bg-indigo-500/10 py-3 rounded-full font-bold transition">Pilih Paket</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontak -->
+    <section id="kontak" class="py-20 px-6 text-center">
+        <h2 class="text-3xl md:text-4xl font-bold mb-4">📞 Siap Diskusi?</h2>
+        <p class="text-slate-400 mb-8 max-w-xl mx-auto">Ceritakan kebutuhan Anda — <strong class="text-white">konsultasi awal GRATIS!</strong></p>
+        <a href="https://wa.me/6281282996533?text=Halo%20Istikomah%2C%20saya%20mau%20konsultasi%20soal%20pembuatan..." class="inline-flex items-center gap-2 bg-green-600 hover:bg-green-700 px-8 py-4 rounded-full font-bold text-lg transition">
+            <i class="fab fa-whatsapp"></i> Chat via WhatsApp
+        </a>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-8 border-t border-slate-700/50 text-center text-slate-500 text-sm">
+        <p>© 2026 Istikomah — Jasa Pembuatan Website AI & Marketplace</p>
+        <p class="mt-2">
+            <a href="https://istikomah.web.app" class="text-indigo-400 hover:underline">istikomah.web.app</a> &nbsp;|&nbsp;
+            <a href="mailto:bakulgrosirherbal@gmail.com" class="text-indigo-400 hover:underline">bakulgrosirherbal@gmail.com</a>
+        </p>
+    </footer>
+
+</body>
+                                                </html>
